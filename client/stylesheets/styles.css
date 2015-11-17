@@ -1,0 +1,70 @@
+body {
+	background-color: grey;
+}
+
+.canvas {
+    background-color:#fff;
+	padding:  25px;
+	width: 100%;
+	float: right;
+	border-radius:none;
+	min-height: 1800px;
+	margin: 20px auto;
+}
+
+
+#toolbar {
+	padding: 0px;
+	width: 200px;
+	min-height: 1800px;
+	float:left;
+	border-radius:none;
+}
+
+#wrapper {
+	margin: 0px;
+	display: block;
+	width: 100%;
+}
+
+#preview-wrapper {
+	background-color: #fff;
+	min-height: 500px;
+	width: 100%;
+	padding:15px;
+	max-width: 980px
+	margin: 0 auto;
+}
+
+.ui.segment {
+	margin: 0;
+}
+
+.ui.segment:hover {
+	border: 3px solid #8BC34A;
+}
+
+.ui.menu #top-menu {
+	background-color: #673AB7;
+}
+
+.ui.menu.item #top-menu:first-child {
+	color: #fff;
+	font-size: 18px
+}
+
+.ui.segment.large {
+	margin: 0 0 25px 0;
+	min-height: 600px;
+}
+
+.ui.inverted.segment > .ui.header {
+	font-size: 4em;
+	margin-top: 3em;
+}
+
+.ui.menu.fixed, 
+.ui.menu.fixed .item:first-child, 
+.ui.menu.fixed .item:last-child {
+    color: #fff;
+}
