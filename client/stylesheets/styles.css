@@ -1,15 +1,15 @@
 body {
-	background-color: grey;
+	background-color: #fff;
 }
 
 .canvas {
-    background-color:#fff;
-	padding:  25px;
-	width: 100%;
-	float: right;
-	border-radius:none;
-	min-height: 1800px;
-	margin: 20px auto;
+    background-color: #fff;
+    padding: 25px 95px;
+    width: 100%;
+    float: none;
+    border-radius: none;
+    min-height: 1800px;
+    margin: 20px 0;
 }
 
 
@@ -32,7 +32,7 @@ body {
 	min-height: 500px;
 	width: 100%;
 	padding:15px;
-	max-width: 980px
+	max-width: auto;
 	margin: 0 auto;
 }
 
@@ -42,15 +42,6 @@ body {
 
 .ui.segment:hover {
 	border: 3px solid #8BC34A;
-}
-
-.ui.menu #top-menu {
-	background-color: #673AB7;
-}
-
-.ui.menu.item #top-menu:first-child {
-	color: #fff;
-	font-size: 18px
 }
 
 .ui.segment.large {
@@ -67,4 +58,68 @@ body {
 .ui.menu.fixed .item:first-child, 
 .ui.menu.fixed .item:last-child {
     color: #fff;
+    background-color: #673AB7;
+}
+
+#lead-form {
+	background-color: #F15757;
+}
+
+.ui.visible.right.overlay.sidebar {
+    background-color: #333;
+    width: 210px;
+}
+
+.show-elements {
+    right: 0px;  
+    z-index: 9999;
+}
+
+.hide-elements {
+    right: 210px;  
+    z-index: 9999;
+}
+
+#page-elements {
+	padding: 5px 0 0 8px;
+}
+
+.element {
+	padding: 0 0 5px 0;
+}
+
+#page-elements .element-style {
+ 	display: none;
+ }
+
+#page-elements .element-img {}
+
+.canvas .element-style {}
+
+.canvas img.element-img {
+	display: none;
+}
+
+
+.fixed.launch.button {
+    display: none;
+    position: fixed;
+    top: 4.9em;
+    width: 55px;
+    height: auto;
+    white-space: nowrap;
+}
+
+.ui.right.attached.button {
+    display: inline-block;
+    padding-left: .75em;
+    border-radius: .28571429rem 0 0 .28571429rem;
+}
+
+.ui.green.button, .ui.green.buttons .button {
+    background-color: #8BC34A;
+    color: #FFF;
+    text-shadow: none;
+    background-image: none;
+    font-size: 14px;
 }

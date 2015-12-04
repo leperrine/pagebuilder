@@ -1,0 +1,14 @@
+<template name="pageBuilder">
+	
+	<!-- Sidebar toolbar for navigating app -->	
+	{{> topMenu}}
+
+	<!-- Sidebar toolbar for building pages -->	
+	{{> pageElementToolbar}}
+
+	<!-- Area where elements are displayed and edited -->
+	<div class="canvas">
+		{{> livePreview}}
+	</div>
+
+</template>
