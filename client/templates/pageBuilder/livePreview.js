@@ -19,16 +19,6 @@ Template.livePreview.onRendered(function(){
 		  scrollSpeed: 25,
 	});
 
-	//var editor = new MediumEditor('.editable', {
-	 	//toolbar: {
-	 		//buttons: ['bold', 'italic', 'underline', 'anchor', 'h1', 'h2', 'h3', 'quote']
-	 	//}
-	//});
- 
-    //$('.editable').mediumInsert({
-        //editor: editor
-    //});
-
 	$('.editable').froalaEditor({
 		toolbarInline: true,
 		charCounterCount: false,
